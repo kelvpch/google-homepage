@@ -1,0 +1,99 @@
+body{
+    font-family: 'Arial', sans-serif;
+}
+/* Top Navigation*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+li{
+    display:inline;
+}
+li:hover{
+    text-decoration: underline;
+}
+#top {
+    color: #000;
+    opacity: 0.75;
+    font-size: 13px;
+    padding-left: 0px;
+}
+#about {
+    padding-left: 15px;
+    color: #000;
+}
+#store {
+    padding-left: 15px;
+    color: #000;
+}
+/* Logo */
+#logo {
+    padding-top: 109px;
+}
+#logo-area {
+    margin-top: 27px;
+    height: 233px;
+}
+/* Form and Search */
+/* Search Bar */
+#search {
+    width: 582px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1dfe5;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+}
+#search:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+#searchform {
+    position: absolute;
+    top: 269px;
+    margin-top: 0;
+    min-width: 980px;
+    z-index: 103;
+}
+button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border:1px solid #c6c6c6;
+    color: #222;
+}
+button {    
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+/* Area below search */
+#corona-msg {
+    color: #1a0dab;
+    font-size: 10pt;
+    margin-bottom: 32px;
+}
+#corona-msg:hover {
+    text-decoration: underline;
+}
+#bot-text {
+    margin-top: 12px;
+}
+#language {
+    font-size: 10pt;
+    display: inline-block;
+    line-height: 28px;
+}
