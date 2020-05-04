@@ -1,42 +1,54 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="kelvpch">
-    <title>Recreating the Google Homepage in HTML/CSS</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-    <!---Navigation-->
-    <div id="logo-area">    
-        <div id="top">
-            <ul>
-                <li><a id="about" href="" style="text-decoration:none;">About</a></li>
-                <li><a id="store" href="" style="text-decoration:none;">Store</a></li>
-            </ul>
-        </div>
-        <!--Google Logo-->
-        <center>    
-        <a href=""><img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Picture of Google Logo"></a>
-        </center>
-    </div>                        
-    <!--Form and Search Bar / Buttons-->
-    <div id="searchform"></div>
-            <input id="search" type="text">
-            <center>
-            <div id="buttons">
-                <button class= "search-button" type="button">Google Search</button>
-                <button class= "search-button" type="button">I'm Feeling Lucky</button>
-            </div>
-            </center>
-    </div>
-        <div id="bot-text">
-            <center>
-            <p id="corona-msg">Stay Home. Save Lives.</p>
-            <p id="language">Google offered in: <a href="">English</a></p>
-            </center>
-        </div>
-    <div class="bot-navbar">
-    </div>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="kelvpch">
+        <title>Google Homepage - Recreated</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
 
-</body>    
+    <body class="grid">
+        <!---top navigation-->    
+        <ul class="top-nav" id="top-left">
+            <li><a href="">About</a></li>
+            <li><a href="">Store</a></li>
+        </ul>
+        <ul class="top-nav" id="top-right">
+            <li><a href="">Gmail</a></li>
+            <li><a href="">Images</a></li>
+            <li><a href="">Apps</a></li>
+            <li><a id="signin-button" href="">Sign in</a></li>
+        </ul>
+
+        <!--Main-->
+        <div id="main-section">
+            <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Picture of Google Logo">
+            <input id="search" type="text">
+            <div id="search-buttons">
+                <button class= "search-buttons" type="button">
+                    Google Search
+                </button>
+                <button class= "search-buttons" type="button">
+                    I'm Feeling Lucky
+                </button>
+            </div>
+            <div id="bot-text">
+                <p id="language">
+                    Google offered in: <a href="">English</a>
+                </p>
+            </div>
+        </div>
+
+        <!---bot navigation-->
+        <ul class="bot-nav" id="bot-left">
+            <li><a href="">Advertising</a></li>
+            <li><a href="">Business</a></li>
+            <li><a href="">How Search Works</a></li>
+        </ul>
+        <ul class="bot-nav" id="bot-right">
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Settings</a></li>
+        </ul>
+    </body>    
 </html>
